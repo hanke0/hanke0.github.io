@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Nginx uWSGI Flask 部署"
+tags: nginx flask python uwsgi
+comments: true
 ---
 
 本人最近在[搬瓦工](https://bandwagonhost.com/ "bandwagonhost")上部署了自己的Django博客，把自己踩的坑先记录下来，防止下次继续踩坑。主要参考uWSGI的[官方文档](http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html "Setting up Django and your web server with uWSGI and nginx")。以下代码中，”（）“内带中文的要修改为自己的，”#“ 后面的内容是注释。

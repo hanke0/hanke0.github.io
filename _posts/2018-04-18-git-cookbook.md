@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Git Cookbook"
+tags: git
 ---
 
 ## 分支

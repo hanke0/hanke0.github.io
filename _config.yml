@@ -25,14 +25,25 @@ description: >- # this means to ignore newlines until "baseurl:"
   Old age should burn and rave at close of day;
   Rage, rage against the dying of the light.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: kekekekekeke666
-github_username:  ko-han
+url: "https://ko-han.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: ko-han
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+header_pages:
+  - index.md
+  - tags.md
+  - about.md
+
+disqus:
+  shortname: ko-han-github-io
+
+minima:
+  date_format: "%Y-%m-%d"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -55,8 +66,7 @@ exclude:
 
 timezone: Asia/Shanghai
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
