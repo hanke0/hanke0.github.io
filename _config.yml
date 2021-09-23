@@ -67,6 +67,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - tools/
 
 timezone: Asia/Shanghai
 defaults:
