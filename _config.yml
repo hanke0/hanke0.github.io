@@ -43,6 +43,10 @@ disqus:
 
 minima:
   date_format: "%Y-%m-%d"
+  social_links:
+    github: ko-han
+    stackoverflow: "8189846"
+    linkedin: "ke-han-china"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
