@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ko Han
+title: Han Ke
 email: hanke0@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Do not go gentle into that good night,
   Old age should burn and rave at close of day;
   Rage, rage against the dying of the light.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ko-han.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: ko-han
+url: "https://kenme.org" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: hanke0
 
 # Build settings
 theme: minima
@@ -39,12 +39,12 @@ header_pages:
   - about.md
 
 disqus:
-  shortname: ko-han-github-io
+  shortname: hankeblog
 
 minima:
   date_format: "%Y-%m-%d"
   social_links:
-    github: ko-han
+    github: hanke0
     stackoverflow: "8189846"
     linkedin: "ke-han-china"
 
